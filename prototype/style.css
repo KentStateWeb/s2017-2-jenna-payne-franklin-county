@@ -1,0 +1,39 @@
+body {
+  max-width: 1000px;
+  padding: 1em;
+  font-family: 'Nobile', sans-serif;
+}
+
+div, section, main, aside, header, footer {
+  border: 1px solid lightgray;
+  padding: .5em;
+  margin-bottom: 1em;
+}
+
+.hero1 {width: 100%;}
+
+
+
+body {
+  max-width: 1000px;
+  padding: 1em;
+  font-family: 'Nobile', sans-serif;
+}
+
+div, section, main, aside, header, footer {
+  border: 1px solid lightgray;
+  padding: .5em;
+  margin-bottom: 1em;
+}
+
+.teaser1 {width: 100%;}
+
+.teaser2 {width: 100%;}
+
+.teaser3 {width: 100%;}
+
+.teaser4 {width: 100%;}
+
+.teaser5 {width: 100%;}
+
+.scrolling_news {width: 100%;}
