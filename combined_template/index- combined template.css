@@ -1,0 +1,201 @@
+/* Colors */
+
+// Light Gray: #f7f7f7
+// Light Blue: #2C7AB6
+// Pink: #C84441
+// Dark Blue: #0C7486
+
+* {
+	box-sizing: border-box;
+}
+
+/* Header */
+
+.logo {margin: 1em;
+				max-width: 100%;}
+
+
+header {
+	background-color: #f7f7f7;
+	border-top: 5px solid #0C7486;
+	padding: .5em 2em;}
+
+/* Navigation */
+
+nav {padding: .5em 2em;
+			margin-top: 1.5em;
+			font-family: 'Nobile', sans-serif;
+			text-align: center;}
+
+nav a {color: black;
+				text-decoration: none;
+				display: block;
+				margin-bottom: 1em;
+				display: inline-block;
+				border-bottom: 5px solid transparent;
+				padding-bottom: .25em;
+				transition: .2s border ease-in;}
+
+nav a:hover {color: #C84441;
+						border-bottom: 5px solid #C84441;}
+
+/* Main Content */
+
+body {
+	font-family: 'Nobile', sans-serif;
+	margin: 0;}
+
+main {padding: 0 2em 1em 2em;
+			margin: 0 auto;}
+
+h2 {font-family: 'Montserrat-Regular', sans-serif;
+	color: #2C7AB6;
+	word-wrap: break-word;}
+
+ul {list-style-type: none;
+		margin: 0;
+		padding: 0;}
+
+.work-list {display: block;
+						margin: auto;}
+
+.work-list li {background-color: #f7f7f7;
+				border-bottom: 5px solid #0C7486;
+				padding-left: 1em;
+				padding-right: 1em;
+				padding-top: 1em;
+				padding-bottom: 1em;
+				display: block;
+				margin: auto;
+				margin-bottom: 2em;}
+
+.work-list h2 a {color: #2C7AB6;
+								text-decoration: none;
+								text-transform: uppercase;
+								margin-top: .5em;
+								margin-bottom: .5em;
+								font-size: 1.3em;}
+
+.button  {padding: .75em .75em .75em .75em;
+					color: white;
+					text-decoration: none;
+					border-radius: 1px;
+					margin-right: .75em;
+					text-transform: uppercase;
+					font-size: .9em;}
+
+.learn {background-color: #C84441;}
+
+ul {list-style-type: none;}
+
+.teaser5 {max-width: 100%;
+					margin-bottom: 1em;}
+
+.teaser {max-width: 100%;
+				margin-bottom: 1em;}
+
+.teaser2 {max-width: 100%;
+					margin-bottom: 1em;}
+
+.teaser3 {max-width: 100%;
+					margin-bottom: 1em;}
+
+/* Calendar */
+/* Month header */
+.month {padding: 70px 25px;
+    		width: 100%;
+   			background: #C84441;}
+
+/* Month list */
+.month ul {margin: 0;
+  			  padding: 0;
+			font-family: 'Nobile', sans-serif;}
+
+.month ul li {color: white;
+    					font-size: 20px;
+    					text-transform: uppercase;
+   						letter-spacing: 3px;}
+
+/* Previous button inside month header */
+
+.month .prev {
+    float: left;
+    padding-top: 10px;}
+
+/* Next button */
+.month .next {float: right;
+    					padding-top: 10px;}
+
+/* Weekdays (Sunday - Monday) */
+.weekdays {margin: 0;
+    			padding: 10px 0;
+   				 background-color:#ddd;}
+
+.weekdays li {display: inline-block;
+   					 width: 13.6%;
+   					 color: #666;
+  					  text-align: center;}
+
+/* Days (1 - 3o) */
+.days {padding: 10px 0;
+   		 background: #eee;
+   		 margin: 0;}
+
+.days li {list-style-type: none;
+   			 display: inline-block;
+   			 width: 13.6%;
+   			 text-align: center;
+  				margin-bottom: 5px;
+  			  font-size:12px;
+  			  color:#777;}
+
+/* Highlight the event days */
+.days li .active {padding: 5px;
+    background: #C84441;
+    color: white !important;}
+
+.june {text-align: center;}
+
+/* Footer */
+
+footer {
+	background-color: #f7f7f7;
+	border-bottom: 5px solid #0C7486;
+	padding: .5em 2em;
+}
+
+.contact {text-align: center;}
+
+.twitter {max-width: 6%;}
+.instagram {max-width: 6%;}
+.facebook {max-width: 6%;}
+
+/* Media Queries */
+@media screen and (min-width:750px)
+{
+	nav li {display: inline;
+					margin-right: 1.5em;}
+
+	.work-list {display: flex;
+							flex-wrap: wrap;
+							justify-content: space-between;}
+	.work-list li {width: 48%;}
+
+}
+
+@media screen and (min-width:1300px)
+{
+	.work-list li {flex-wrap: nowrap;
+									width: 23%;}
+	.logo {}
+	}
+
+@media (max-width: 600px)
+{
+.calendar {display: none;}
+}
+
+/* To do */
+/* No smaller than 380px */
+/* Logo query */
+/* Social icons too big? */

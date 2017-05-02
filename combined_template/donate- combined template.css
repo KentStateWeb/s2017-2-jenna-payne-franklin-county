@@ -1,0 +1,134 @@
+/* Colors */
+
+// Light Gray: #f7f7f7
+// Light Blue: #2C7AB6
+// Pink: #C84441
+// Dark Blue: #0C7486
+
+* {
+	box-sizing: border-box;
+}
+
+/* Header */
+
+.logo {margin: 1em;
+				max-width: 100%;}
+
+header {
+	background-color: #f7f7f7;
+	border-top: 5px solid #0C7486;
+	padding: .5em 2em;
+}
+
+/* Navigation */
+
+
+nav {padding: .5em 2em;
+			margin-top: 1.5em;
+			font-family: 'Nobile', sans-serif;
+			text-align: center;}
+
+nav a {color: black;
+				text-decoration: none;
+				display: block;
+				margin-bottom: 1em;
+				display: inline-block;
+				border-bottom: 5px solid transparent;
+				padding-bottom: .25em;
+				transition: .2s border ease-in;}
+
+nav a:hover {color: #C84441;
+						border-bottom: 5px solid #C84441;}
+
+/* Main Content */
+
+body {
+	font-family: 'Nobile', sans-serif;
+	margin: 0;}
+
+main {padding: 0 2em 1em 2em;
+			margin: 0 auto;}
+
+h2 {font-family: 'Montserrat-Regular', sans-serif;
+		color: #2C7AB6;}
+
+ul {list-style-type: none;
+	margin: 0;}
+
+.work-list .donate {
+				border: 5px solid #0C7486;
+				padding-left: 1em;
+				padding-right: 1em;
+				padding-top: 1em;
+				padding-bottom: 1em;
+				margin-bottom: 2em;
+				margin-top: 1em;
+				text-decoration: none;}
+
+.work-list h4 a {color: black;
+								text-decoration: none;
+								margin-top: .5em;
+								margin-bottom: .5em;
+								border-bottom: 5px solid transparent;
+				padding-bottom: .25em;
+				transition: .2s border ease-in;}
+
+.work-list h4 a:hover {color: #C84441;
+					border-bottom: 5px solid #C84441;}
+
+.selected {color: #C84441;
+	border-bottom: 5px solid #C84441;
+	padding-bottom: .25em;}
+
+.button  {padding: .75em .75em .75em .75em;
+					color: white;
+					text-decoration: none;
+					border-radius: 1px;
+					text-transform: uppercase;
+					font-size: .9em;}
+
+.Donate {background-color: #C84441;}
+
+.form {color: #2C7AB6}
+
+.hero1 {width: 100%;}
+
+span {color: #C84441;}
+
+/* Footer */
+
+.contact {text-align: center;}
+
+.twitter {max-width: 6%;
+					margin: .25em;}
+.instagram {max-width: 6%;
+						margin: .25em;}
+.facebook {max-width: 6%;
+					margin: .25em;}
+
+footer {
+	background-color: #f7f7f7;
+	border-bottom: 5px solid #0C7486;
+	padding: .5em 2em;
+}
+
+/* Media Queries */
+
+@media screen and (min-width:650px)
+{
+	nav li {display: inline;
+					margin-right: 1.5em;}
+
+	.work-list {display: flex;
+							flex-wrap: wrap;
+					justify-content: space-between;}
+	.work-list li {width: 48%;}
+}
+
+
+/* To do */
+/* No smaller than 300px */
+/* Logo query */
+/* Social icons get too big? */
+/* Side nav border width */
+/* Button margins */
