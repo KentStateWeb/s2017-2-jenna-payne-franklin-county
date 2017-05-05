@@ -1,13 +1,22 @@
-/* Colors */
+/* Colors
 
 // Light Gray: #f7f7f7
 // Light Blue: #2C7AB6
 // Pink: #C84441
 // Dark Blue: #0C7486
+*/
 
 * {
 	box-sizing: border-box;
 }
+
+.hidden
+{position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;}
 
 /* Header */
 
@@ -31,6 +40,8 @@ nav {padding: .5em 2em;
 			font-family: 'Nobile', sans-serif;
 			text-align: center;}
 
+			nav ul {padding: 0;}
+
 nav a {color: black;
 				text-decoration: none;
 				display: block;
@@ -40,7 +51,7 @@ nav a {color: black;
 				padding-bottom: .25em;
 				transition: .2s border ease-in;}
 
-nav a:hover {color: #C84441;
+nav a:hover, a:focus {color: #C84441;
 						border-bottom: 5px solid #C84441;}
 
 /* Main Content */
@@ -50,13 +61,15 @@ body {
 	margin: 0;}
 
 main {padding: 0 2em 1em 2em;
-			margin: 0 auto;}
+			margin: 0 auto;
+			max-width: 1000px;}
 
 h2 {font-family: 'Montserrat-Regular', sans-serif;
 		color: #2C7AB6;}
 
 ul {list-style-type: none;
-	margin: 0;}
+	margin: 0;
+	padding: 0;}
 
 .work-list .programs
 {border: 5px solid #0C7486;
@@ -108,15 +121,19 @@ h3 {font-family: 'Montserrat-Light', sans-serif;}
 
 .contact1 {text-align: center;}
 
-.twitter {max-width: 6%;}
-.instagram {max-width: 6%;}
-.facebook {max-width: 6%;}
+.twitter {max-width: 35px;
+					margin: .25em;}
+.instagram {max-width: 35px;
+						margin: .25em;}
+.facebook {max-width: 35px;
+					margin: .25em;}
 
 footer {
 	background-color: #f7f7f7;
 	border-bottom: 5px solid #0C7486;
 	padding: .5em 2em;
 	text-align: center;
+	margin-top: 1em;
 }
 
 /* Media Queries */
@@ -130,12 +147,8 @@ footer {
 							flex-wrap: wrap;
 					justify-content: space-between;
 	align-items: flex-start;}
-	.work-list li {width: 47%;}
+	.about {width: 60%;}
+	.programs {width: 30%;}
+
 
 }
-
-/* To do */
-/* No smaller than 300px */
-/* Logo query */
-/* Social icons get too big? */
-/* Side nav border width */
