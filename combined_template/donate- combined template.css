@@ -29,6 +29,14 @@ header {background-color: #f7f7f7;
 				border-top: 5px solid #0C7486;
 				padding: .5em 2em;}
 
+.give {padding: .75em .75em .25em .75em;
+			color: white;
+			text-decoration: none;
+			border-radius: 1px;
+			text-transform: uppercase;
+			font-size: .9em;
+			background-color: #C84441;}
+
 
 /* Navigation */
 
@@ -101,7 +109,10 @@ ul {list-style-type: none;
 					border-radius: 1px;
 					text-transform: uppercase;
 					font-size: .9em;
-					display: in-line block;}
+					display: inline-block;
+					transition: .2s border ease-in;}
+
+.button:hover, a:focus {color: #C84441;}
 
 .Donate {background-color: #C84441;}
 
@@ -121,6 +132,8 @@ span {color: #C84441;}
 						margin: .25em;}
 .facebook {max-width: 35px;
 					margin: .25em;}
+
+dd {margin: 0;}
 
 footer {
 	background-color: #f7f7f7;

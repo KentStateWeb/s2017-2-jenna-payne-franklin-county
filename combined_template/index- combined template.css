@@ -31,7 +31,13 @@ header {
 	border-top: 5px solid #0C7486;
 	padding: .5em 2em;}
 
-
+.give {padding: .75em .75em .25em .75em;
+					color: white;
+					text-decoration: none;
+					border-radius: 1px;
+					text-transform: uppercase;
+					font-size: .9em;
+					background-color: #C84441;}
 /* Navigation */
 
 nav {padding: .5em 2em;
@@ -47,7 +53,7 @@ nav a {color: black;
 				margin-bottom: 1em;
 				display: inline-block;
 				border-bottom: 5px solid transparent;
-				padding-bottom: .25em;
+				padding-bottom: ;
 				transition: .2s border ease-in;}
 
 nav a:hover, a:focus {color: #C84441;
@@ -61,7 +67,7 @@ body {
 
 main {padding: 0 2em 1em 2em;
 			margin: 0 auto;
-			max-width: 1000px;}
+			max-width: 1300px;}
 
 h2 {font-family: 'Montserrat-Regular', sans-serif;
 	color: #2C7AB6;
@@ -87,7 +93,7 @@ ul {list-style-type: none;
 								text-transform: uppercase;
 								margin-top: .5em;
 								margin-bottom: .5em;
-								font-size: 1.3em;}
+								font-size: 1em;}
 
 .button  {padding: .75em .75em .75em .75em;
 					color: white;
@@ -95,7 +101,11 @@ ul {list-style-type: none;
 					border-radius: 1px;
 					margin-right: .75em;
 					text-transform: uppercase;
-					font-size: .9em;}
+					font-size: .9em;
+					transition: .2s border ease-in;}
+
+.button:hover, a:focus {color: #C84441;}
+
 
 .learn {background-color: #C84441;}
 
@@ -177,6 +187,8 @@ footer {
 	padding: .5em 2em;
 	text-align: center;
 	margin-top: 1em;}
+
+	dd {margin: 0;}
 
 	.twitter {max-width: 35px;
 						margin: .25em;}

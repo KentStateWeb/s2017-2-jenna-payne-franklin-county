@@ -32,6 +32,14 @@ header {
 	padding: .5em 2em;
 }
 
+.give {padding: .75em .75em .25em .75em;
+					color: white;
+					text-decoration: none;
+					border-radius: 1px;
+					text-transform: uppercase;
+					font-size: .9em;
+					background-color: #C84441;}
+
 /* Navigation */
 
 
@@ -132,9 +140,12 @@ footer {
 	background-color: #f7f7f7;
 	border-bottom: 5px solid #0C7486;
 	padding: .5em 2em;
-	text-align: center;
+	margin: 0 auto;
 	margin-top: 1em;
+	text-align: center;
 }
+
+dd {margin: 0;}
 
 /* Media Queries */
 
