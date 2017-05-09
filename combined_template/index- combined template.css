@@ -31,13 +31,7 @@ header {
 	border-top: 5px solid #0C7486;
 	padding: .5em 2em;}
 
-.give {padding: .75em .75em .25em .75em;
-					color: white;
-					text-decoration: none;
-					border-radius: 1px;
-					text-transform: uppercase;
-					font-size: .9em;
-					background-color: #C84441;}
+
 /* Navigation */
 
 nav {padding: .5em 2em;
@@ -58,6 +52,14 @@ nav a {color: black;
 
 nav a:hover, a:focus {color: #C84441;
 						border-bottom: 5px solid #C84441;}
+
+.give {padding: .75em .75em .25em .75em;
+			color: white;
+			text-decoration: none;
+			border-radius: 1px;
+			text-transform: uppercase;
+			font-size: 15px;
+			background-color: #C84441;}
 
 /* Main Content */
 
